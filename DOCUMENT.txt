@@ -1,0 +1,29 @@
+GAME MAP(BASIC Ver):
+	. . . . . . . . .
+	. o . . / . . x .
+	. . / . . . / . .
+	. o . . / . . x .
+	. . . . . . . . .
+GAME MAP(Uppered Ver):
+	  . . . . . .
+	 . o . / . x .
+	. / . . . . / .
+	 . o . / . x .
+	  . . . . . .
+0-'.'  1-'o'  2-'x'  3-'/'
+FILES:
+    HP:20
+	SP:6 (CAN HEAP)
+	MOVE:3/BLOCK
+	DASH:6/TO THE END
+	ATTACK:3SP  2/SHOOT  5/PUNCH
+	SHEILD:3SP  (NEXT ROUND -1AT)
+	BUILD (HIDDEN) MINE:6SP 
+	DEFUSE:3SP
+	BUILD WALL:6SP
+	SEARCH:3SP
+	ROUND: o1 -> x1 -> x2 -> o2
+	
+	optional:
+	RANDOM SP PILES
+	HIDE and DEHIDE
